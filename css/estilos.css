@@ -13,6 +13,12 @@
 	overflow: hidden;
 }
 
+.encabezado_reg{
+  position: relative;
+  min-height: 300px;
+  overflow: hidden;
+}
+
 #top {
   padding-top: 68px;
   position: relative;
@@ -338,6 +344,17 @@ ul.icesubMenu ul > li.hover > ul {
   color: white !important;
 }
 
+.bg-nav{
+  width: 100%;
+  min-height: 250px;
+  z-index: 0;
+  position: absolute;
+  top: 0;
+  background-color: black;
+  background-image: url('../images/bg_nav.jpg');
+  background-size: cover;
+}
+
 /*SLIDER*/
 .slider{
 	width: 100%;
@@ -451,6 +468,10 @@ body,
     padding-top: 7%;
 }
 
+.content_reg {
+    padding-bottom: 4%;
+}
+
 /*Titulos*/
 
 .titulo{
@@ -531,6 +552,7 @@ article{
   vertical-align: middle;
   -webkit-box-shadow: 0 5px 10px 1px #000;
 	box-shadow: 0 5px 10px 1px #000;
+	background-image: url('../images/bg-foot.gif');
 }
 
 .menu a:hover,
@@ -624,6 +646,7 @@ article{
 .login a:hover {
 	background-color: #fff;
 	color: #f74753;
+	cursor: pointer;
 }
 
 .frm{
@@ -665,4 +688,30 @@ article{
     color: #f74753 !important;
     background-color: #fff !important;
     border-color: #f80b1b !important;
+}
+
+.parrafo{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+.thumbnail > img {
+    max-width: 200px !important;
+}
+
+footer{
+	min-height: 50px;
+	bottom: 0;
+	background: #000;
+	position: relative;
+	background-image: url('../images/bg-foot.gif');
+}
+
+footer p{
+	color: #c5c5c5;
+	font-family: 'Bellefair', serif;
+	float: right;
+	right: 30px;
+	top: 20px;
+	position: absolute;
 }
