@@ -5,6 +5,7 @@
     <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Bellefair" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Spectral" rel="stylesheet"> 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <script src="https://use.fontawesome.com/eaab872bf8.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
@@ -167,53 +168,56 @@
       <div class="row">
         <header class="page_header">
           <h1 class="heading-style-1">
-            <span class="">Contacto</span>
+            <span class="">Contactenos</span>
           </h1>
         </header>
-        <div class="col-md-1"></div>
-        <div class="col-md-10">
-          <div id="map" style="width:100%; height: 400px;"></div>
-        </div>
-        <div class="col-md-1"></div>
         <div class="col-md-2"></div>
         <div class="col-md-8">
           <form class="form-horizontal">
             <div class="form-group">
-            <div class="col-sm-1"></div>
-              <div class="col-sm-3">
-                <input type="text" class="form-control" id="inputEmail3" placeholder="Nombre  ">
+              <div class="col-sm-4">
+                <input type="text" class="form-control frm" id="inputEmail3" placeholder="Nombre  ">
               </div>
               <div class="col-sm-4">
-                <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                <input type="email" class="form-control frm" id="inputEmail3" placeholder="Email">
               </div>
-              <div class="col-sm-3">
-                <input type="number" class="form-control" id="inputEmail3" placeholder="Telefono">
-              </div>
-            </div>
-            <div class="form-group">
-              <div class="col-sm-2"></div>
-              <div class="col-sm-10">
-                <textarea class="form-control"></textarea>
+              <div class="col-sm-4">
+                <input type="text" class="form-control frm" id="inputEmail3" placeholder="Tel&eacute;fono" data-constraints="@JustNumbers">
               </div>
             </div>
             <div class="form-group">
-              <div class="col-sm-offset-2 col-sm-10">
-                <div class="checkbox">
-                  <label>
-                    <input type="checkbox"> Remember me
-                  </label>
-                </div>
+              <div class="col-sm-12">
+                <textarea class="form-control" placeholder="Mensaje"></textarea>
               </div>
             </div>
             <div class="form-group">
-              <div class="col-sm-offset-2 col-sm-10">
-                <button type="submit" class="btn btn-default">Sign in</button>
+              <div class="col-sm-12">
+                <button type="submit" class="btn btn-primary">Enviar</button>
               </div>
             </div>
           </form>
         </div>
         <div class="col-md-2"></div>
       </div>
+      <div class="row">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-8 sep">
+          <div class="col-sm-12 ">
+            <span class="dir"><i class="fa fa-phone" aria-hidden="true"></i>  (506) 2222-2222 / 2333-3333</span>
+          </div>
+          <div class="col-sm-12 "><br>
+            <span class="dir"><i class="fa fa-map-marker" aria-hidden="true"></i>   Nos econtramos al costado norte del platel principal del MOPT, en Plaza Gonzales Viquez</span>
+          </div>
+        </div>
+        <div class="col-sm-2"></div>
+      </div>
+      <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-10">
+          <div id="map" style="width:100%; height: 400px;"></div>
+        </div>
+        <div class="col-md-1"></div>
+      </div>  
     </div>
     <footer>
       <p>Designed by <a href="">David Arias</a></p>
