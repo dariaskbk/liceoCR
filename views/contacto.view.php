@@ -69,7 +69,7 @@
         </form>
       </div>
     </div>
-    <div class="encabezado">
+    <div class="encabezado_reg">
       <div id="top" class="">          
         <div class="container">
           <div class="row">
@@ -94,7 +94,7 @@
                   <div class="icemegamenu">
                     <ul id="icemegamenu">
                       <li id="" class="iceMenuLiLevel_1 active fullwidth">
-                        <a href="#" title="" class="iceMenuTitle hover">
+                        <a href="index.php" title="" class="iceMenuTitle hover">
                           <span class="icemega_nosubtitle">Inicio</span>
                         </a>
                       </li>
@@ -104,7 +104,7 @@
                         </a>
                       </li>
                       <li id="" class="iceMenuLiLevel_1 mzr-drop parent" data-hover="false">
-                        <a href="circulares.php" class="iceMenuTitle">
+                        <a class="iceMenuTitle">
                           <span class="icemega_nosubtitle">Circulares</span>
                         </a>
                       </li>
@@ -119,12 +119,12 @@
                         </a>
                       </li>
                       <li id="" class="iceMenuLiLevel_1 ">
-                        <a href="galeria.php" title="" class="iceMenuTitle">
+                        <a href="#" title="" class="iceMenuTitle">
                           <span class="" icemega_nosubtitle">Galeria</span>
                         </a>
                       </li>                 
                       <li id="" class="iceMenuLiLevel_1 ">
-                        <a href="contacto.php" title="" class="iceMenuTitle">
+                        <a href="#" title="" class="iceMenuTitle">
                           <span class="" icemega_nosubtitle">Contacto</span>
                         </a>
                       </li>
@@ -137,12 +137,12 @@
       <nav class="menu icemegamenu" id="Menu">
       <ul id="icemegamenu">
         <li class="iceMenuLiLevel_1">  
-          <a href="#">Inicio</a>
+          <a href="index.php">Inicio</a>
         </li>
         <li>  
         <a href="#">Institucion</a>
         <li>  
-        <a href="circulares.php">Circulares</a>
+        <a href="#">Circulares</a>
         </li>
         <li>  
         <a href="#">Personal</a>
@@ -159,66 +159,61 @@
       </ul>
       </nav>  
     </div> <!-- NAV -->
-    <div class="slider">
-      <div id="carouselFade" class="carousel slide carousel-fade" data-ride="carousel"> 
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner" role="listbox">
-            <div class="item active">
-                <div class="carousel-caption">
-
-                </div>
-            </div>
-            <div class="item">
-                <div class="carousel-caption">
-<!--                   <h1 class="heading-style-1">Actos Civicos</h1>
-                  <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p> -->
-                </div>
-            </div>
-            <div class="item">
-                <div class="carousel-caption">
-
-                </div>
-            </div>
-            <div class="item">
-                <div class="carousel-caption">
-
-                </div>
-            </div>
-        </div>
-      </div>
+    <div class="bg-nav">
+      
     </div>
     </div> <!-- Encabezado -->
-    <div class="content">
-    <div class="row">
-      <header class="page_header">
-        <h1 class="heading-style-1">
-          <span class="">Misión</span>
-        </h1>
-      </header>
-     <article>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      </article>  
+    <div class="content_reg">
+      <div class="row">
+        <header class="page_header">
+          <h1 class="heading-style-1">
+            <span class="">Contacto</span>
+          </h1>
+        </header>
+        <div class="col-md-1"></div>
+        <div class="col-md-10">
+          <div id="map" style="width:100%; height: 400px;"></div>
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+          <form class="form-horizontal">
+            <div class="form-group">
+            <div class="col-sm-1"></div>
+              <div class="col-sm-3">
+                <input type="text" class="form-control" id="inputEmail3" placeholder="Nombre  ">
+              </div>
+              <div class="col-sm-4">
+                <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+              </div>
+              <div class="col-sm-3">
+                <input type="number" class="form-control" id="inputEmail3" placeholder="Telefono">
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-sm-2"></div>
+              <div class="col-sm-10">
+                <textarea class="form-control"></textarea>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-sm-offset-2 col-sm-10">
+                <div class="checkbox">
+                  <label>
+                    <input type="checkbox"> Remember me
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-sm-offset-2 col-sm-10">
+                <button type="submit" class="btn btn-default">Sign in</button>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="col-md-2"></div>
       </div>
-      <header class="page_header">
-        <h1 class="heading-style-1">
-          <span class="">Visión</span>
-        </h1>
-      </header>
-      <article>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      </article>  
-    </div>
-    <div class="contact content">
-      <header class="page_header">
-        <h1 class="heading-style-1">
-          <span class="">Contactenos</span>
-        </h1>
-      </header>
-<!--       <div class="col-md-5"></div>
-      <div class="col-md-7"> -->
-        <div id="map" style="width:100%; height: 600px;"></div>
-      <!-- </div> -->
-      <!-- GOOGLE MAPS dfdfdf-->
     </div>
     <footer>
       <p>Designed by <a href="">David Arias</a></p>

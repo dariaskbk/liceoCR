@@ -699,6 +699,10 @@ article{
     max-width: 200px !important;
 }
 
+.thumbnail .caption {
+    min-height: 220px;
+}
+
 footer{
 	min-height: 50px;
 	bottom: 0;
