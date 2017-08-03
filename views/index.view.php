@@ -33,7 +33,6 @@
 
       $(document).ready(function(){
         $(window).scroll(function() {
-          
           if ($(this).scrollTop() > 300) {
             $('#Menu').slideDown(300);
           }else {
