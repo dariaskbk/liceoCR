@@ -747,6 +747,15 @@ textarea {
   margin-bottom: 30px;
 }
 
+.heading-style-2{
+  font-family: 'Righteous', cursive !important;
+}
+
+.thumbnail > .image {
+    max-width: 100% !important;
+    height: 250px;
+}
+
 footer{
 	min-height: 50px;
 	bottom: 0;
