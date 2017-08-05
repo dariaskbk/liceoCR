@@ -672,7 +672,25 @@ article{
 	position: absolute;
 	bottom: 0;
 	left: 0;
+  text-align: center;
 }
+
+.botn-log p{
+  margin-top: 20px;
+  margin-left: 10px;
+  font: 16px 'Spectral', serif !important;
+  text-align: left;
+}
+
+.botn-log p a{
+  font: 16px 'Spectral', serif !important;
+  color: #000;
+}
+
+.botn-log p a:hover{
+  background-color: transparent;
+}
+
 
 .botn-log button{
 	margin-top: 15%;
@@ -754,6 +772,11 @@ textarea {
 .thumbnail > .image {
     max-width: 100% !important;
     height: 250px;
+}
+
+.desc_circular{
+  min-height: 60px;
+  max-height: 70px;
 }
 
 footer{

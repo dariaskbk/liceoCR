@@ -56,6 +56,7 @@
             </div>
             <div class="moduletable col-sm-4">
               <!-- Logo MEP  -->
+              <img src="images/logomep1.png" alt="Mep" style="width: 100px; float: right;">
             </div>
           </div>
         </div>

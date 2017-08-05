@@ -19,6 +19,7 @@
           </div>
           <div class="botn-log">
             <button type="submit" class="btn btn-primary"><i class="fa fa-sign-in" aria-hidden="true"></i> Entrar</button>
+            <p class="dir"><a href="#">¿Olvid&oacute; su contraseña?</a></p>
           </div>
         </form>
       </div>

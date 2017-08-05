@@ -14,23 +14,6 @@
     <title>Liceo de Costa Rica</title>
     <script type="text/javascript" src="js/main.js"></script>
     <script>
-      function initMap() {
-        var uluru = {lat: 9.9253301, lng: -84.0756873};
-        var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 18,
-          center: uluru,
-          mapTypeControl: true,
-          scrollwheel: false
-        });
-        var image = "images/icono.png";
-        var marker = new google.maps.Marker({
-          position: uluru,
-          map: map,
-          icon: image,
-          animation: google.maps.Animation.BOUNCE
-        });
-      }
-
       $(document).ready(function(){
         $(window).scroll(function() {
           
@@ -174,50 +157,21 @@
         <div class="col-md-10 col-xs-12">
           <p class="parrafo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi obcaecati debitis qui veniam ad excepturi, perferendis velit laudantium eligendi quam facilis necessitatibus dicta consequuntur, nemo optio, beatae modi aut. Odio.</p></br></br>
           <div class="row">
+      <?php if ($circulares != '') {?>
+        <?php foreach ($circulares as $circular): ?>
             <div class="col-sm-6 col-md-3">
               <div class="thumbnail">
-                <img src="images/word-doc-icon.png" alt="...">
+                <img src="images/word-doc-icon.png" alt="<?php echo $circular['Nombre'];?>">
                 <div class="caption">
-                  <h3>Circular DLSG 0017-16</h3>
-                  <p>Circular DLSG 0017-16 para Personal Docente, Administrativo, Padres de Familia y Estudiantes.</p>
-                  <p><a href="#" class="btn btn-primary" role="button"><i class="fa fa-download" aria-hidden="true"></i>
- Descargar</a></p>
+                  <h3><?php echo $circular['Nombre'];?></h3>
+                  <p class="desc_circular"><?php echo $circular['Descripcion'];?></p>
+                  <p><a href="<?php echo "circulares/".$circular['Archivo'] ?>" class="btn btn-primary" role="button"><i class="fa fa-download" aria-hidden="true"></i>Descargar</a></p>
                 </div>
               </div>
             </div>
-            <div class="col-sm-6 col-md-3">
-              <div class="thumbnail">
-                <img src="images/word-doc-icon.png" alt="...">
-                <div class="caption">
-                  <h3>Agenda Octubre 2015</h3>
-                  <p>Agenda Octubre 2015</p>
-                  <p><a href="#" class="btn btn-primary" role="button"><i class="fa fa-download" aria-hidden="true"></i>
- Descargar</a></p>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-md-3">
-              <div class="thumbnail">
-                <img src="images/word-doc-icon.png" alt="...">
-                <div class="caption">
-                  <h3>Celebración 12 de Octubre</h3>
-                  <p>Celebración del Día de las Culturas </p>
-                  <p><a href="#" class="btn btn-primary" role="button"><i class="fa fa-download" aria-hidden="true"></i>
- Descargar</a></p>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-md-3">
-              <div class="thumbnail">
-                <img src="images/word-doc-icon.png" alt="...">
-                <div class="caption">
-                  <h3>Circular DLSG 0017-16</h3>
-                  <p>Circular DLSG 0017-16 para Personal Docente, Administrativo, Padres de Familia y Estudiantes.</p>
-                  <p><a href="#" class="btn btn-primary" role="button"><i class="fa fa-download" aria-hidden="true"></i>
- Descargar</a></p>
-                </div>
-              </div>
-            </div>
+        <?php endforeach;?>
+      <?php }?>
+
           </div>
         </div>
         <div class="col-md-1"></div>
@@ -227,7 +181,27 @@
           <div class="col-md-10">
             <nav aria-label="Page navigation">
               <ul class="pagination">
-                <li>
+          <?php if ($pagina == 1): ?>
+                <li class="disabled" ><a class="disabled"><i class="fa fa-angle-double-left" aria-hidden="true"></i></a></li>
+          <?php else: ?>
+                <li><a href="?p=<?php echo $pagina - 1?>"><i class="fa fa-angle-double-left" aria-hidden="true"></i></a></li>
+          <?php endif; ?>
+
+          <?php
+          for ($i=1; $i <= $numeroPagina ; $i++) {
+            if ($pagina == $i) {
+              echo "<li><a class='active' href='?p=$i'>$i</a></li>";
+            }else {
+              echo "<li><a href='?p=$i'>$i</a></li>";
+            }
+          }
+          ?>
+          <?php if ($pagina == $numeroPagina): ?>
+             <li class="disabled" ><a class="disabled"><i class="fa fa-angle-double-right" aria-hidden="true"></i></a></li>
+          <?php else: ?>
+            <li><a href="?p=<?php echo $pagina + 1?>"><i class="fa fa-angle-double-right" aria-hidden="true"></i></a></li>
+          <?php endif; ?>
+<!--                 <li>
                   <a href="#" aria-label="Previous">
                     <i class="fa fa-angle-double-left" aria-hidden="true"></i>
                   </a>
@@ -241,7 +215,7 @@
                   <a href="#" aria-label="Next">
                     <i class="fa fa-angle-double-right" aria-hidden="true"></i>
                   </a>
-                </li>
+                </li> -->
               </ul>
             </nav>
           </div>
