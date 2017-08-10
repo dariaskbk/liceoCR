@@ -119,17 +119,10 @@
         </div>
       <nav class="menu icemegamenu" id="Menu">
       <ul id="icemegamenu">
-        <li class="iceMenuLiLevel_1">  
-          <a href="index.php">Inicio</a>
-        </li>
-        <li>  
-        <a href="#">Institucion</a>
-        <li>  
-        <a href="#">Circulares</a>
-        </li>
-        <li>  
-        <a href="#">Personal</a>
-        </li>
+        <li class="iceMenuLiLevel_1"><a href="index.php">Inicio</a></li>
+        <li><a href="#">Institucion</a></li>
+        <li><a href="#">Circulares</a></li>
+        <li><a href="#">Personal</a></li>
         <li>  
         <a href="#">Noticias</a>
         </li>
@@ -165,7 +158,7 @@
                 <div class="caption">
                   <h3><?php echo $circular['Nombre'];?></h3>
                   <p class="desc_circular"><?php echo $circular['Descripcion'];?></p>
-                  <p><a href="<?php echo "circulares/".$circular['Archivo'] ?>" class="btn btn-primary" role="button"><i class="fa fa-download" aria-hidden="true"></i>Descargar</a></p>
+                  <p><a href="<?php echo "circulares/".$circular['Archivo'] ?>" class="btn btn-primary" role="button"><i class="fa fa-download" aria-hidden="true"></i> Descargar</a></p>
                 </div>
               </div>
             </div>
@@ -201,21 +194,6 @@
           <?php else: ?>
             <li><a href="?p=<?php echo $pagina + 1?>"><i class="fa fa-angle-double-right" aria-hidden="true"></i></a></li>
           <?php endif; ?>
-<!--                 <li>
-                  <a href="#" aria-label="Previous">
-                    <i class="fa fa-angle-double-left" aria-hidden="true"></i>
-                  </a>
-                </li>
-                <li><a href="#">1</a></li>
-                <li><a href="#">2</a></li>
-                <li><a href="#">3</a></li>
-                <li><a href="#">4</a></li>
-                <li><a href="#">5</a></li>
-                <li>
-                  <a href="#" aria-label="Next">
-                    <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-                  </a>
-                </li> -->
               </ul>
             </nav>
           </div>

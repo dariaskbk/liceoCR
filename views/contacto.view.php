@@ -192,6 +192,35 @@
           <div id="map" style="width:100%; height: 400px;"></div>
         </div>
         <div class="col-md-1"></div>
+      </div>
+      <div class="content">
+        <div class="row">
+          <dic class="col-md-1"></dic>
+          <dic class="col-md-10">
+            <header class="page_header">
+              <h1 class="heading-style-1">
+                <span class="">Directorio telefónico</span>
+              </h1>
+            </header>
+          </dic>
+          <dic class="col-md-1"></dic>
+        </div>
+        <div class="row">
+          <dic class="col-md-2"></dic>
+          <dic class="col-md-8">
+            <table class="table table-bordered">
+              <tr>
+                <th><i class="fa fa-address-book-o" aria-hidden="true"></i>  Nombre</th>
+                <th><i class="fa fa-phone" aria-hidden="true"></i> Número telefónico</th>
+              </tr>
+              <tr>
+                <td><i class="fa fa-map-marker" aria-hidden="true"></i>  Hospital San Juan de Dios</td>
+                <td><i class="fa fa-mobile" aria-hidden="true"></i>  (506) 2257-6282</td>
+              </tr>
+            </table>
+          </dic>
+          <dic class="col-md-2"></dic>
+        </div>  
       </div>  
     </div>
     <footer>
