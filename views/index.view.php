@@ -11,6 +11,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBbqyNVMG_VP3REc24lfKNnlG3lpwugbIU&callback=initMap"></script>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Liceo de Costa Rica</title>
     <script type="text/javascript" src="js/main.js"></script>
     <script>
@@ -48,15 +49,17 @@
       <div id="top" class="">          
         <div class="container">
           <div class="row">
-            <div id="logo" class="col-sm-8">
+            <div class="col-sm-1">
+                <img src="images/escudo.png" alt="Liceo de Costa Rica" style="width: 80px; float: left;">
+            </div>
+            <div id="logo" class="col-sm-9">
               <a href="index.php">
-                <img src="images/icono.png" alt="Liceo de Costa Rica" class="">
-                <span class="item_title_part0">Liceo de Costa Rica</span>
+                <span class="item_title_part0">Liceo de Costa Rica Bilingüe</span>
               </a>
             </div>
-            <div class="moduletable col-sm-4">
+            <div class="moduletable col-sm-2">
               <!-- Logo MEP  -->
-              <img src="images/logomep1.png" alt="Mep" style="width: 100px; float: right;">
+              <img src="images/logomep1.png" alt="Mep" style="width: 150px; float: right;">
             </div>
           </div>
         </div>

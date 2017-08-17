@@ -33,7 +33,7 @@
 }
 
 #logo{
-  /*text-align: center;*/
+  text-align: center;
   margin-bottom: 20px;
   max-width: 100%;
 }
@@ -45,7 +45,7 @@
   color: white !important;
   display: inline-block;
   max-width: 100%;
-  font: 62px/80px 'Righteous', cursive;
+  font: 56px/80px 'Righteous', cursive;
   /*text-transform: lowercase;*/
 }
 #logo a .site-logo {
@@ -63,10 +63,7 @@
 #logo a:hover{
 	text-decoration: none !important;
 }
-/*
-span.item_title_part0 {
-  color: #f74753;
-}*/
+
 
 #navigation {
   padding: 27px 0 100px;
@@ -429,14 +426,14 @@ body,
   position: relative;
 }
 .item:nth-child(1) {
-  background: url('../images/slid-1.jpg');
+  background: url('../images/slid-2.png');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
 }
 
 .item:nth-child(2) {
-  background: url('../images/slid-2.png');
+  background: url('../images/slid-5.jpg');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -794,4 +791,14 @@ footer p{
 	right: 30px;
 	top: 20px;
 	position: absolute;
+}
+
+ @media (max-width: 1200px) {
+    .icemegamenu > ul > li > a.iceMenuTitle {
+      padding: 0px 14px;
+    }
+
+    #logo a {
+      font: 51px/80px 'Righteous', cursive;
+    }
 }

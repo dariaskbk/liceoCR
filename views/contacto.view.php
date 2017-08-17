@@ -49,14 +49,17 @@
       <div id="top" class="">          
         <div class="container">
           <div class="row">
+            <div class="col-sm-2">
+                <img src="images/escudo.png" alt="Liceo de Costa Rica" style="width: 80px; float: left;">
+            </div>
             <div id="logo" class="col-sm-8">
               <a href="index.php">
-                <img src="images/icono.png" alt="Liceo de Costa Rica" class="">
-                <span class="item_title_part0">Liceo de Costa Rica</span>
+                <span class="item_title_part0">Liceo de Costa Rica Bilingüe</span>
               </a>
             </div>
-            <div class="moduletable col-sm-4">
+            <div class="moduletable col-sm-2">
               <!-- Logo MEP  -->
+              <img src="images/logomep1.png" alt="Mep" style="width: 150px; float: right;">
             </div>
           </div>
         </div>
