@@ -85,32 +85,32 @@
                         </a>
                       </li>
                       <li id="" class="iceMenuLiLevel_1">
-                        <a href="#" title="" class="iceMenuTitle">
+                        <a href="institucion.php" title="" class="iceMenuTitle">
                           <span class="icemega_nosubtitle">Instituci&oacute;n</span>
                         </a>
                       </li>
                       <li id="" class="iceMenuLiLevel_1 mzr-drop parent" data-hover="false">
-                        <a class="iceMenuTitle">
+                        <a href="circulares.php" class="iceMenuTitle">
                           <span class="icemega_nosubtitle">Circulares</span>
                         </a>
                       </li>
                       <li id="" class="iceMenuLiLevel_1 ">
                         <a href="#" title="" class="iceMenuTitle">
-                          <span class="" icemega_nosubtitle">Personal</span>
+                          <span class="" icemega_nosubtitle">Departamentos</span>
                         </a>
                       </li>
                       <li id="" class="iceMenuLiLevel_1 gallery">
-                        <a href="#" title="" class="iceMenuTitle">
+                        <a href="noticias.php" title="" class="iceMenuTitle">
                           <span class="" icemega_nosubtitle">Noticias</span>
                         </a>
                       </li>
                       <li id="" class="iceMenuLiLevel_1 ">
-                        <a href="#" title="" class="iceMenuTitle">
+                        <a href="galeria.php" title="" class="iceMenuTitle">
                           <span class="" icemega_nosubtitle">Galeria</span>
                         </a>
                       </li>                 
                       <li id="" class="iceMenuLiLevel_1 ">
-                        <a href="#" title="" class="iceMenuTitle">
+                        <a href="contacto.php" title="" class="iceMenuTitle">
                           <span class="" icemega_nosubtitle">Contacto</span>
                         </a>
                       </li>
@@ -122,18 +122,25 @@
         </div>
       <nav class="menu icemegamenu" id="Menu">
       <ul id="icemegamenu">
-        <li class="iceMenuLiLevel_1"><a href="index.php">Inicio</a></li>
-        <li><a href="#">Institucion</a></li>
-        <li><a href="#">Circulares</a></li>
-        <li><a href="#">Personal</a></li>
-        <li>  
-        <a href="#">Noticias</a>
+        <li class="iceMenuLiLevel_1">  
+          <a href="index.php">Inicio</a>
         </li>
         <li>  
-        <a href="#">Galeria</a>
+        <a href="institucion.php">Institucion</a>
+        <li>  
+        <a href="circulares.php">Circulares</a>
         </li>
         <li>  
-        <a href="#">Contacto</a>
+        <a href="#">Departamentos</a>
+        </li>
+        <li>  
+        <a href="noticias.php">Noticias</a>
+        </li>
+        <li>  
+        <a href="galeria.php">Galeria</a>
+        </li>
+        <li>  
+        <a href="contacto.php">Contacto</a>
         </li>
       </ul>
       </nav>  
@@ -157,7 +164,7 @@
         <?php foreach ($circulares as $circular): ?>
             <div class="col-sm-6 col-md-3">
               <div class="thumbnail">
-                <img src="images/word-doc-icon.png" alt="<?php echo $circular['Nombre'];?>">
+                <img src="images/pdf-icon.png" alt="<?php echo $circular['Nombre'];?>">
                 <div class="caption">
                   <h3><?php echo $circular['Nombre'];?></h3>
                   <p class="desc_circular"><?php echo $circular['Descripcion'];?></p>

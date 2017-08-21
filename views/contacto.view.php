@@ -220,6 +220,10 @@
                 <td><i class="fa fa-map-marker" aria-hidden="true"></i>  Hospital San Juan de Dios</td>
                 <td><i class="fa fa-mobile" aria-hidden="true"></i>  (506) 2257-6282</td>
               </tr>
+              <tr>
+                <td><i class="fa fa-map-marker" aria-hidden="true"></i>  Ministerio de Educación Publica</td>
+                <td><i class="fa fa-mobile" aria-hidden="true"></i>  (506) 2222-2222</td>
+              </tr>
             </table>
           </dic>
           <dic class="col-md-2"></dic>

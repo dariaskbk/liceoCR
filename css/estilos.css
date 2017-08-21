@@ -465,6 +465,10 @@ body,
     padding-top: 7%;
 }
 
+.content article{
+  text-align: justify;
+}
+
 .content_reg {
     padding-bottom: 4%;
 }
@@ -710,6 +714,16 @@ article{
     font-size: 18px;
 }
 
+.centro{
+  text-align: center;
+}
+
+.parrafo_himno{
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+
 .thumbnail > img {
     max-width: 200px !important;
 }
@@ -792,6 +806,14 @@ footer p{
 	top: 20px;
 	position: absolute;
 }
+
+/*
+medidas para responsive
+- 1200px
+- 1000px
+- 768px
+- 320px
+*/
 
  @media (max-width: 1200px) {
     .icemegamenu > ul > li > a.iceMenuTitle {

@@ -73,12 +73,12 @@
                   <div class="icemegamenu">
                     <ul id="icemegamenu">
                       <li id="" class="iceMenuLiLevel_1 active fullwidth">
-                        <a href="#" title="" class="iceMenuTitle hover">
+                        <a href="index.php" title="" class="iceMenuTitle hover">
                           <span class="icemega_nosubtitle">Inicio</span>
                         </a>
                       </li>
                       <li id="" class="iceMenuLiLevel_1">
-                        <a href="#" title="" class="iceMenuTitle">
+                        <a href="institucion.php" title="" class="iceMenuTitle">
                           <span class="icemega_nosubtitle">Instituci&oacute;n</span>
                         </a>
                       </li>
@@ -89,11 +89,11 @@
                       </li>
                       <li id="" class="iceMenuLiLevel_1 ">
                         <a href="#" title="" class="iceMenuTitle">
-                          <span class="" icemega_nosubtitle">Personal</span>
+                          <span class="" icemega_nosubtitle">Departamentos</span>
                         </a>
                       </li>
                       <li id="" class="iceMenuLiLevel_1 gallery">
-                        <a href="#" title="" class="iceMenuTitle">
+                        <a href="noticias.php" title="" class="iceMenuTitle">
                           <span class="" icemega_nosubtitle">Noticias</span>
                         </a>
                       </li>
@@ -116,15 +116,15 @@
       <nav class="menu icemegamenu" id="Menu">
       <ul id="icemegamenu">
         <li class="iceMenuLiLevel_1">  
-          <a href="#">Inicio</a>
+          <a href="index.php">Inicio</a>
         </li>
         <li>  
-        <a href="#">Institucion</a>
+        <a href="institucion.php">Institucion</a>
         <li>  
         <a href="circulares.php">Circulares</a>
         </li>
         <li>  
-        <a href="#">Personal</a>
+        <a href="#">Departamentos</a>
         </li>
         <li>  
         <a href="noticias.php">Noticias</a>
@@ -175,7 +175,9 @@
         </h1>
       </header>
      <article>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>El Liceo de Costa Rica tiene como meta fundamental la formación integral del educando en sus aspectos: físico, moral, tecnológico, artístico, académico y social, mediante un proceso de enseñanza y aprendizaje interdisciplinario que promueva el desarrollo humano.  Además de promover la práctica de valores mediante la acción docente. La misión debe ser un compromiso no sólo de docentes, administrativos y estudiantes, sino también de los padres de familia quienes en primera instancia son los más interesados en el desarrollo integral de sus hijos. Por otro lado la integración de la comunidad en este sentido es de vital importancia, ya que para lograr estas metas se necesita su participación activa en la formación de la comunidad estudiantil.<br><br>
+Mediante la dinámica interdisciplinaria formaremos jóvenes con capacidad crítica que sirvan a la sociedad costarricense con liderazgo auténtico.
+</p>
       </article>  
       </div>
       <header class="page_header">
@@ -184,7 +186,7 @@
         </h1>
       </header>
       <article>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>Se concibe al Liceo de Costa Rica como una Institución de excelencia académica, donde el educando que en él se forme, refleje la vivencia de valores morales, éticos, cívicos, religiosos y la formación académica y tecnológica que le permitan integrarse a la sociedad como un ser humano útil y productivo.</p>
       </article>  
     </div>
     <div class="contact content">

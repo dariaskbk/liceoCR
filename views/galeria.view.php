@@ -91,32 +91,32 @@
                         </a>
                       </li>
                       <li id="" class="iceMenuLiLevel_1">
-                        <a href="#" title="" class="iceMenuTitle">
+                        <a href="institucion.php" title="" class="iceMenuTitle">
                           <span class="icemega_nosubtitle">Instituci&oacute;n</span>
                         </a>
                       </li>
                       <li id="" class="iceMenuLiLevel_1 mzr-drop parent" data-hover="false">
-                        <a class="iceMenuTitle">
+                        <a href="circulares.php" class="iceMenuTitle">
                           <span class="icemega_nosubtitle">Circulares</span>
                         </a>
                       </li>
                       <li id="" class="iceMenuLiLevel_1 ">
                         <a href="#" title="" class="iceMenuTitle">
-                          <span class="" icemega_nosubtitle">Personal</span>
+                          <span class="" icemega_nosubtitle">Departamentos</span>
                         </a>
                       </li>
                       <li id="" class="iceMenuLiLevel_1 gallery">
-                        <a href="#" title="" class="iceMenuTitle">
+                        <a href="noticias.php" title="" class="iceMenuTitle">
                           <span class="" icemega_nosubtitle">Noticias</span>
                         </a>
                       </li>
                       <li id="" class="iceMenuLiLevel_1 ">
-                        <a href="#" title="" class="iceMenuTitle">
+                        <a href="galeria.php" title="" class="iceMenuTitle">
                           <span class="" icemega_nosubtitle">Galeria</span>
                         </a>
                       </li>                 
                       <li id="" class="iceMenuLiLevel_1 ">
-                        <a href="#" title="" class="iceMenuTitle">
+                        <a href="contacto.php" title="" class="iceMenuTitle">
                           <span class="" icemega_nosubtitle">Contacto</span>
                         </a>
                       </li>
@@ -132,21 +132,21 @@
           <a href="index.php">Inicio</a>
         </li>
         <li>  
-        <a href="#">Institucion</a>
+        <a href="institucion.php">Institucion</a>
         <li>  
-        <a href="#">Circulares</a>
+        <a href="circulares.php">Circulares</a>
         </li>
         <li>  
-        <a href="#">Personal</a>
+        <a href="#">Departamentos</a>
         </li>
         <li>  
-        <a href="#">Noticias</a>
+        <a href="noticias.php">Noticias</a>
         </li>
         <li>  
-        <a href="#">Galeria</a>
+        <a href="galeria.php">Galeria</a>
         </li>
         <li>  
-        <a href="#">Contacto</a>
+        <a href="contacto.php">Contacto</a>
         </li>
       </ul>
       </nav>  
